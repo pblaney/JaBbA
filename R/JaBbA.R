@@ -404,7 +404,7 @@ JaBbA = function(## Two required inputs
             saveRDS(last.ra, this.ra.file)
 
             jab = jabba_stub(
-                junctions = this.ra.file,
+                junctions = last.ra,
                 seg = seg,
                 coverage = coverage,
                 blacklist.coverage = blacklist.coverage,
