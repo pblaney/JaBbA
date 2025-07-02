@@ -191,7 +191,7 @@ JaBbA = function(## Two required inputs
     ##     {
     ##         jerror(paste('Junction path', ra, 'does not exist'))
     ##     }
-    ra.all = read.junctions(ra, geno = geno, chr.convert = drop.chr) ## GRL
+    ra.all = ra #read.junctions(ra, geno = geno, chr.convert = drop.chr) ## GRL
 
     if (is.null(ra.all)){
         jwarning("no junction file is given, will be running JaBbA without junctions!")
